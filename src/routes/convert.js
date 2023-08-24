@@ -69,7 +69,7 @@ function convert(req,res,next) {
             '-profile:v high',
             '-r 15',
             '-crf 23',
-            '-preset ultrafast',
+            '-preset fast',
             '-b:v 500k',
             '-maxrate 500k',
             '-bufsize 1000k',
